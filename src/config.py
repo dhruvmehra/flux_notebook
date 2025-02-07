@@ -10,6 +10,7 @@ class Config:
     
     # Model settings
     FLUX_MODEL_ID = "black-forest-labs/FLUX.1-dev"
+    INPAINT_MODEL_ID = "runwayml/stable-diffusion-inpainting"  # Added for inpainting
     DEVICE = "cuda"  # or "cpu"
     
     # Default generation settings
